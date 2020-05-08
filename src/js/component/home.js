@@ -4,7 +4,6 @@ import { BrowserRoutee } from "react-router-dom";
 import { Banner } from "./Components/Banner";
 import { About } from "./Components/About";
 import { Services } from "./Components/Services";
-import { Stats } from "./Components/Stats";
 import { Portfolio } from "./Components/Portfolio";
 import { Team } from "./Components/Team";
 import { Contact } from "./Components/Contact";
@@ -20,9 +19,8 @@ export function Home() {
 			<Banner />
 			<About />
 			<Services />
-			<Stats />
-			<Portfolio />
 			<Team />
+			<Portfolio />
 			<Contact />
 		</React.Fragment>
 	);

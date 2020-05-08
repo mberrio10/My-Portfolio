@@ -1,4 +1,5 @@
 import React from "react";
+import codeMatrix from "../../../img/matrix-code.jpg";
 
 export class About extends React.Component {
 	render() {

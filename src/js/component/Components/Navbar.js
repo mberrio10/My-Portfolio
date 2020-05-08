@@ -16,8 +16,7 @@ export class Navbar extends React.Component {
 		document.addEventListener(
 			"scroll",
 			_.throttle(() => {
-				const togglescroll =
-					window.scrollY < 100 ? "transparent" : "white";
+				const togglescroll = window.scrollY < 100 ? "white" : "#8c9a3d";
 				this.setState({ togglechange: togglescroll });
 			}, 100)
 		);
@@ -25,7 +24,7 @@ export class Navbar extends React.Component {
 		document.addEventListener(
 			"scroll",
 			_.throttle(() => {
-				const fontscroll = window.scrollY < 100 ? "black" : "white";
+				const fontscroll = window.scrollY < 100 ? "white" : "#8c9a3d";
 				this.setState({ fontchange: fontscroll });
 			}, 100)
 		);
