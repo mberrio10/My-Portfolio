@@ -1,7 +1,6 @@
 import React from "react";
 import bgBanner from "../../../img/bg-banner.jpg";
 import myAvatar from "../../../img/myAvatar.png";
-import { Parallax } from "react-parallax";
 
 export class Banner extends React.Component {
 	render() {
@@ -12,11 +11,11 @@ export class Banner extends React.Component {
 						<img className="bgBanner" src={bgBanner} />
 						<img className="img-fluid myAvatar" src={myAvatar} />
 						<div className="col-lg-7 px-0">
-							<h1 className="display-4 text-right">
+							<h1 className="display-4 text-right nameTitle">
 								Hey! I`m Mike B. <br />
 								<span>Full Stack Web Developer</span>
 							</h1>
-							<p className="lead my-3 text-right font-italic">
+							<p className="lead my-3 text-right font-italic descTitle">
 								Here to make your bussines Groovy!
 							</p>
 							<div className="row iconFooter justify-content-end">

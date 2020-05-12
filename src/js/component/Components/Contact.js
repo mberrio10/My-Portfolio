@@ -10,8 +10,7 @@ export class Contact extends React.Component {
 						style={{ display: "block" }}>
 						<h3>Send Me A Message</h3>
 						<p className="text-center lead">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit.
+							Available for hiring and freelancing.
 						</p>
 					</div>
 					<form>
