@@ -11,7 +11,7 @@ html {
 
 body
 {
-    min-height: 1000px;    
+    min-height: 1000px;  
 }
 
 .navbar-brand {
@@ -28,7 +28,6 @@ body
 
 .jumbotron {
     min-height: 90vh;
-    //background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-images-eba3c.appspot.com/o/bg%20banner.jpg?alt=media&token=72b20459-618e-4882-92e2-e885091280c5');
     display: flex;
     background-size: cover;
     align-items: center;
@@ -38,7 +37,7 @@ body
 .jumbotron::before {
     content: '';
     position: absolute;
-    left: 0;
+    left: -116px;
     top: 0;
     width: 400px;
     height: 90%;
@@ -70,7 +69,7 @@ img.codeMatrix {
 
 img.myAvatar  {
     position: absolute;
-    left: 138px;
+    left: 0px;
     bottom: 86px;
     height: 69%;
     z-index: 2;
@@ -80,12 +79,16 @@ img.myAvatar  {
     font-weight:700;
     color: #fff;
     line-height: 1em;
+    font-size: 3rem;
 }
 
 .jumbotron h1 span {
     color:#8c9a3d;
 }
 
+div.col-lg-7 {
+    z-index: 2;
+}
 .sec {
     padding: 60px;
     min-height: 60vh;
@@ -96,11 +99,12 @@ img.myAvatar  {
 section.about {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-images-eba3c.appspot.com/o/Matrix%20Code%20Opac.jpg?alt=media&token=99c8c706-c9a7-434b-a270-5abdf4036a61);
     background-size: cover;
-    min-height: 82vh;
+    min-height: 84vh;
 }
 
 section.services {
     background-color: #1e210c;
+    min-height: 84vh;
 }
 
 .mxw {
@@ -113,6 +117,7 @@ h3 {
     margin: 10px;
     text-align: center;
     color: white;
+    height: 100px;
 }
 
 p {
@@ -122,6 +127,11 @@ p {
     margin: 20px;
     letter-spacing: 1px;
     color: white;
+}
+
+.list-group-item {
+    background-color: #1e210c;
+    border: 0;
 }
 
 .card-deck {
@@ -175,7 +185,7 @@ p {
 .cardWork .bodyBrand {
     background: #74f296;
     min-height: 300px;
-    width: 227px;
+    width: 225px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -216,7 +226,7 @@ h2 {
     /* left: 0; */
     width: 100%;
     height: 100%;
-    display: flex;
+    display: inline-grid;
     justify-content: center;
     align-items: center;
     background: #000;
@@ -315,6 +325,24 @@ a:hover {
 
 .webFooter p small a:hover.ancFooter {
     color: dodgerblue;
+}
+
+@media (max-width:991px) {
+    .jumbotron {
+        padding: 150px 50px 0;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .jumbotron::before {
+        width: 300px;
+        transform: skewX(25deg) translateX(-50%);
+    }
+
+    img.myAvatar {
+        bottom: 81px;
+        height: 50%;
+    }
 }
 /* 
     You can write your own styles here...

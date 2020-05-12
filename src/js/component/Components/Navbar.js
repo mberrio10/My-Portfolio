@@ -1,5 +1,6 @@
 import React from "react";
 import _ from "lodash";
+import myIcon from "../../../img/MyIcon64.png";
 
 export class Navbar extends React.Component {
 	state = [];
@@ -41,6 +42,7 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<nav
+				id="navbar-example2"
 				className="navbar navbar-expand-lg fixed-top navbar-light"
 				style={{
 					backgroundColor: `${this.state.navchange}`,
@@ -55,7 +57,11 @@ export class Navbar extends React.Component {
 							color: `${this.state.fontchange}`
 						}}
 						href="#">
-						Navbar
+						<img
+							src={myIcon}
+							className="img-fluid MyLogo"
+							alt="Responsive image"
+						/>
 					</a>
 					<button
 						className="navbar-toggler"
@@ -106,14 +112,14 @@ export class Navbar extends React.Component {
 								href="#portfolio">
 								Portfolio
 							</a>
-							<a
+							{/*<a
 								className="nav-item nav-link"
 								style={{
 									color: `${this.state.fontchange}`
 								}}
-								href="#team">
-								Team
-							</a>
+								href="#photoshop">
+								Graphic Design
+							</a>*/}
 							<a
 								className="nav-item nav-link"
 								style={{

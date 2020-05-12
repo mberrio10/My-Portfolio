@@ -1,26 +1,35 @@
 import React from "react";
-import codeMatrix from "../../../img/matrix-code.jpg";
+//import codeMatrix from "../../../img/matrix-code.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export class About extends React.Component {
 	render() {
+		Aos.init({ duration: 2000 });
 		return (
 			<section className="sec about" id="about">
 				<div className="container content">
 					<div className="row mxw justify-content-center">
-						<h3>Who We Are</h3>
-						<p className="text-center">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation ullamco laboris nisi ut aliquip
-							ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore
-							eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia
-							deserunt mollit anim id est laborum.
+						<h3 data-aos="fade-down">Who I am</h3>
+						<p data-aos="fade-up" className="text-center lead">
+							Hi, I`m Mike Berrio a passionate about technology
+							and the arts, I am a full-stack web developer and a
+							musician, these have always been my two great
+							passions wherein through them, I have been able to
+							exploit my creativity, tenacity, and my focus on
+							every detail. I am excited to program because as
+							well as with music, I can develop pieces that allow
+							people to express, interact, and project their
+							ideas. On the other hand, I`m excited to share as a
+							team the same purpose to take a project forward. I`m
+							always keeping up with the latest trends in
+							programming and constant learning.
 						</p>
-						<button type="button" className="btn btn-dark">
-							Read Our Story
+						<button
+							type="button"
+							data-aos="fade-up-right"
+							className="btn btn-dark">
+							Check My Resume
 						</button>
 					</div>
 				</div>

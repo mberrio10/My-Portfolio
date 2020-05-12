@@ -5,9 +5,11 @@ export class Contact extends React.Component {
 		return (
 			<section className="sec contact" id="contact">
 				<div className="container content">
-					<div className="row mxw justify-content-center">
-						<h3>Send Us A Message</h3>
-						<p className="text-center">
+					<div
+						className="row mxw justify-content-center"
+						style={{ display: "block" }}>
+						<h3>Send Me A Message</h3>
+						<p className="text-center lead">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit.
 						</p>
@@ -48,9 +50,14 @@ export class Contact extends React.Component {
 					</form>
 					<div className="row iconFooter justify-content-center">
 						<ul>
-							<a href="#" className="fab fa-facebook" />
-							<a href="#" className="fab fa-instagram" />
-							<a href="#" className="fab fa-linkedin" />
+							<a
+								href="https://github.com/mberrio10"
+								className="fab fa-github"
+							/>
+							<a
+								href="https://www.linkedin.com/in/mikeberrio/"
+								className="fab fa-linkedin"
+							/>
 						</ul>
 					</div>
 					<div className="row webFooter justify-content-center">
