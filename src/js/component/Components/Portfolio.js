@@ -32,7 +32,7 @@ export class Portfolio extends React.Component {
 									</h5>
 									<div className="row justify-content-center">
 										<a
-											href="#"
+											href="https://github.com/mberrio10/My-Portfolio"
 											className="btn btn-outline-secondary">
 											Code
 										</a>
@@ -56,13 +56,13 @@ export class Portfolio extends React.Component {
 									</h5>
 									<div className="row">
 										<a
-											href="#"
+											href="https://sparklesalonboutique.com/"
 											className="btn btn-outline-secondary"
 											style={{ marginLeft: "15px" }}>
 											Live
 										</a>
 										<a
-											href="#"
+											href="https://github.com/mberrio10/Sparkle-salon"
 											className="btn btn-outline-secondary"
 											style={{ marginLeft: "20px" }}>
 											Code
@@ -87,13 +87,13 @@ export class Portfolio extends React.Component {
 									</h5>
 									<div className="row">
 										<a
-											href="#"
+											href="https://one-page-website-self.now.sh/"
 											className="btn btn-outline-secondary"
 											style={{ marginLeft: "15px" }}>
 											Live
 										</a>
 										<a
-											href="#"
+											href="https://github.com/mberrio10/One-Page-Website"
 											className="btn btn-outline-secondary"
 											style={{ marginLeft: "38px" }}>
 											Code
