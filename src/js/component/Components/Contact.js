@@ -66,7 +66,7 @@ export class Contact extends React.Component {
 							<small className="text-muted">
 								Designed & Developed by{" "}
 								<a className="ancFooter" hrf="#">
-									Groovy Webs
+									Mike Berrio
 								</a>
 							</small>
 						</p>

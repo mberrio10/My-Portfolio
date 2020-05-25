@@ -27,7 +27,7 @@ body
 }
 
 .jumbotron {
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     background-size: cover;
     align-items: center;
@@ -40,7 +40,7 @@ body
     left: -116px;
     top: 0;
     width: 400px;
-    height: 90%;
+    height: 100%;
     background: #4b5320;
     transform-origin: top;
     transform: skewX(25deg);
@@ -52,7 +52,7 @@ img.bgBanner {
     top: 0;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
     object-fit: cover;
     opacity: 0.15;
 }
@@ -132,6 +132,11 @@ p {
 .list-group-item {
     background-color: #1e210c;
     border: 0;
+}
+
+i.DevLogo {
+    color: dimgray;
+    font-size: 147px;
 }
 
 .card-deck {

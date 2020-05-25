@@ -1,16 +1,4 @@
 import React from "react";
-import htmlIcon from "../../../img/html.png";
-import cssIcon from "../../../img/css.png";
-import psIcon from "../../../img/Ps.png";
-import bootstrapIcon from "../../../img/Bootstrap.png";
-import jsIcon from "../../../img/Js.png";
-import ajaxIcon from "../../../img/ajax.png";
-import nodeIcon from "../../../img/node.png";
-import reactIcon from "../../../img/react.png";
-import phpIcon from "../../../img/php.png";
-import mysqlIcon from "../../../img/Mysql.png";
-import apiIcon from "../../../img/api.png";
-import githubIcon from "../../../img/github.png";
 
 export class Services extends React.Component {
 	render() {
@@ -25,104 +13,57 @@ export class Services extends React.Component {
 					<div className="row justify-content-center">
 						<div className="col-lg-12">
 							<ul className="list-group list-group-horizontal-md">
-								<li
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid htmlIcon"
-										src={htmlIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-html5-plain-wordmark DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid cssIcon"
-										src={cssIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-css3-plain-wordmark DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid psIcon"
-										src={psIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-photoshop-line DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid bootstrapIcon"
-										src={bootstrapIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-bootstrap-plain DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid jsIcon"
-										src={jsIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-javascript-plain DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid ajaxIcon"
-										src={ajaxIcon}
-									/>
-								</li>
+									className="list-group-item devicon-nodejs-plain-wordmark DevLogo"
+								/>
 							</ul>
+
 							<ul className="list-group list-group-horizontal-md">
-								<li
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid nodeIcon"
-										src={nodeIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-react-original-wordmark DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid reactIcon"
-										src={reactIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-php-plain DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid phpIcon"
-										src={phpIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-mysql-plain-wordmark DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid mysqlIcon"
-										src={mysqlIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-git-plain-wordmark DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid apiIcon"
-										src={apiIcon}
-									/>
-								</li>
-								<li
+									className="list-group-item devicon-webpack-plain-wordmark DevLogo"
+								/>
+								<i
 									data-aos="zoom-in"
-									className="list-group-item">
-									<img
-										className="img-fluid gitIcon"
-										src={githubIcon}
-									/>
-								</li>
+									className="list-group-item devicon-wordpress-plain-wordmark DevLogo"
+								/>
 							</ul>
 						</div>
 					</div>
