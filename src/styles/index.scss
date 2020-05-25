@@ -70,7 +70,7 @@ img.codeMatrix {
 img.myAvatar  {
     position: absolute;
     left: 0px;
-    bottom: 86px;
+    bottom: 0px;
     height: 69%;
     z-index: 2;
 }
@@ -360,17 +360,19 @@ p.descTitle {
 @media (max-width:991px) {
     .jumbotron {
         padding: 150px 50px 0;
+        min-height: 100vh;
         flex-direction: column;
         overflow: hidden;
     }
 
     .jumbotron::before {
         width: 300px;
+        height: 100%;
         transform: skewX(25deg) translateX(-50%);
     }
 
     img.myAvatar {
-        bottom: 81px;
+        bottom: 0px;
         height: 50%;
     }
 }
