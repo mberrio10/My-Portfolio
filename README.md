@@ -13,7 +13,7 @@ $ git clone https://github.com/mberrio10/My-Portfolio.git
 $ npm install
 ```
 
-## Start this project!
+## Run the project!
 
 For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
 - `$ npm run start`
