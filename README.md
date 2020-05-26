@@ -6,7 +6,6 @@ This template was created unsing create-react-app boilerplate created by for 4Ge
 
 ```
 $ git clone https://github.com/mberrio10/My-Portfolio.git
-$ cd react-hello
 ```
 
 ##### and install the npm package:
