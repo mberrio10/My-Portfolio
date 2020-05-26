@@ -1,21 +1,11 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# Portfolio Application
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+This template was created unsing create-react-app boilerplate created by for 4Geeks Academy.
 
-##### Download the boilerplate using the BreatheCode CLI
-```
-$ npm i breathecode-cli -g
-$ breathecode start:react-project -r
-```
-
-#### Or Download the boilerplate using git
+#### Download the boilerplate using git
 
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
+$ git clone https://github.com/mberrio10/My-Portfolio.git
 $ cd react-hello
 ```
 
@@ -24,19 +14,13 @@ $ cd react-hello
 $ npm install
 ```
 
-## Start coding!
+## Start this project!
 
 For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
 - `$ npm run start`
 
 You can update the `styles/index.scss` or `js/index.js` depending on your needs.
 Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [now zeit](https://zeit.co/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
 
 ## Other features
 
