@@ -22,7 +22,36 @@ For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
 You can update the `styles/index.scss` or `js/index.js` depending on your needs.
 Add more files into your, `./src/js/components` or styles folder as you need them.
 
-## This Aplication comes with AOS installed
+## OnScroll Navbar change!
+
+in the Navbar component you can change the `addEventlistener` to your liking 
+```Javascript
+export class Navbar extends React.Component {
+	state = [];
+
+	componentDidMount() {
+		document.addEventListener(
+			"scroll",
+			_.throttle(() => {
+				const colorscroll =
+					window.scrollY < 100 ? "transparent" : "black";
+				this.setState({ navchange: colorscroll });
+			}, 100)
+		);
+	}
+```
+and you have to style the element with the inline style attribute, the value must be a JavaScript object:
+```Javascript
+<nav
+	id="navbar-example2"
+	className="navbar navbar-expand-lg fixed-top navbar-light"
+	style={{
+		backgroundColor: `${this.state.navchange}`,
+		zIndex: "1000",
+		transition: "0.6s"
+	}}>
+```
+## This Aplication comes with AOS installed!
 
 to use AOS in this application set animation using data-aos attribute for example:
 ```Javascript
@@ -52,7 +81,7 @@ export class About extends React.Component {
 	}
 }
 ```
-Check the documenatation for [AOS](https://github.com/michalsnik/aos)
+Check the documenatation for [AOS](https://github.com/michalsnik/aos) for more detail info.
 
 ## Other features
 
