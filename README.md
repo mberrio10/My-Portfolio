@@ -24,9 +24,13 @@ Add more files into your, `./src/js/components` or styles folder as you need the
 
 ## This Aplication comes with AOS installed
 
-to use AOS in this application 
-
+to use AOS in this application set animation using data-aos attribute for example:
+```Javascript
+<div data-aos="fade-in"></div>
 ```
+Make sure to import script, styles and initialize AOS:
+
+```Javascript
 import Aos from "aos";
 import "aos/dist/aos.css";
 
