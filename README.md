@@ -7,6 +7,7 @@ this is a professional, full-responsive, and high performance Portfolio, develop
 
 ```
 $ git clone https://github.com/mberrio10/My-Portfolio.git
+$ cd react-hello
 ```
 
 ##### and install the npm package:
