@@ -2,7 +2,7 @@ import React from "react";
 import Sparkle from "../../../img/SparkleSalon.jpg";
 import PortfolioImg from "../../../img/portfolio.jpg";
 import OnePage from "../../../img/one-page.jpg";
-//import Image4 from "../../../img/4.jpg";
+import EnEquilibrium from "../../../img/EnEquilibrium.jpg";
 
 export class Portfolio extends React.Component {
 	render() {
@@ -40,7 +40,7 @@ export class Portfolio extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div
+						{/* <div
 							data-aos="flip-down"
 							className="col-md-auto teamCard">
 							<div className="card h-100 designerCard">
@@ -94,6 +94,37 @@ export class Portfolio extends React.Component {
 										</a>
 										<a
 											href="https://github.com/mberrio10/One-Page-Website"
+											className="btn btn-outline-secondary"
+											style={{ marginLeft: "38px" }}>
+											Code
+										</a>
+									</div>
+								</div>
+							</div>
+						</div> */}
+						<div
+							data-aos="flip-right"
+							className="col-md-auto teamCard">
+							<div className="card h-100 designerCard">
+								<img
+									src={EnEquilibrium}
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body designerDetail">
+									<h5 className="card-title">
+										En Equilibrium <br />
+										<span>Fitness Blog Website.</span>
+									</h5>
+									<div className="row">
+										<a
+											href="https://enequilibrium.now.sh/"
+											className="btn btn-outline-secondary"
+											style={{ marginLeft: "15px" }}>
+											Live
+										</a>
+										<a
+											href="https://github.com/mberrio10/Training-Project-FrontEnd"
 											className="btn btn-outline-secondary"
 											style={{ marginLeft: "38px" }}>
 											Code

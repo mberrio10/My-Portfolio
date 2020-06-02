@@ -25,7 +25,7 @@ export class About extends React.Component {
 							constantly learning.
 						</p>
 						<a
-							href="https://firebasestorage.googleapis.com/v0/b/portfolio-images-eba3c.appspot.com/o/Mike_Berrio_Resume.pdf?alt=media&token=be16a25b-042b-49ab-b5d0-4d37eba64e4f"
+							href="https://firebasestorage.googleapis.com/v0/b/portfolio-images-eba3c.appspot.com/o/Mike_Berrio_Resume_02-06-2020.pdf?alt=media&token=7422da9f-724a-4078-8889-e139228b86e4"
 							data-aos="fade-up-right"
 							className="btn btn-secondary btn-lg active"
 							role="button"
